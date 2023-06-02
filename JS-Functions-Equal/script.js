@@ -11,7 +11,7 @@ function isEqual(a,b) {
     return;
 }
 
-isEqual(20, 'twenty');
+isEqual(20, "twenty");
 
 var isEqualTryAgain = function(c,d) {
     if (c === d) {
@@ -19,9 +19,9 @@ var isEqualTryAgain = function(c,d) {
     } else if(c == d) {
         console.log('They are equal in value.')
     } else {
-        console.log('I tell ya what big shoots, they must have stuff in common, but being equal ain`t one of them.')
+        console.log('I tell ya what big shoots, they might have stuff in common, but being equal ain`t one of them.')
     }
     return;
 }
 
-isEqualTryAgain(13, '1');
+isEqualTryAgain(13, 13);
